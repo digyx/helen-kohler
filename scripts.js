@@ -8,8 +8,8 @@ var page = new Vue({
 		youtube: 'https://www.youtube.com/channel/UCOE2n8EXKJnt67mDJ0hmMnw',
 		amazon: 'https://www.amazon.com/s/ref=ntt_srch_drd_B07C6N9TJ7?ie=UTF8&field-keywords=Helen%20Kohler&index=digital-music&search-type=ss',
 		instagram: 'https://www.instagram.com/the.helen.of.troy/',
-		header: 'background-image: url("header.jpg")',
-		body: 'background-image: url("body.jpg")',
-		footer: 'background-image: url("footer.jpg")',
+		header: 'background-image: url("https://imgur.com/b2Znm9J.jpg")',
+		body: 'background-image: url("https://imgur.com/Yaw3a63.jpg")',
+		footer: 'background-image: url("https://imgur.com/MI0XBsh.jpg")',
 	},
 });

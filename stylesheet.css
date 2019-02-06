@@ -39,7 +39,7 @@ iframe {
 	padding: 1em;
 	line-height: 2;
 	max-width: 500px;
-	background: #000a;
+	background: #000c;
 }
 
 @media screen and (max-height: 700px) {
@@ -50,7 +50,11 @@ iframe {
 
 @media screen and (max-height: 650px) {
 	.section {
-		height: 150vh;
+		height: 100vh;
+	}
+
+	#about {
+		line-height: 1;
 	}
 }
 
