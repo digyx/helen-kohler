@@ -30,6 +30,7 @@ iframe {
 	height: 100vh;
 
 	background-position: center center;
+	background-size: cover;
 }
 
 #about {
