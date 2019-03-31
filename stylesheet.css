@@ -60,6 +60,7 @@ iframe {
 	width: 80%;
 	position: absolute;
 	bottom: 25px;
+	left: 10%;
 
 	display: flex;
 	justify-content: space-between;
@@ -68,6 +69,7 @@ iframe {
 #social-links-bar {
 	position: absolute;
 	bottom: 0;
+	left: 0;
 }
 
 #events {
