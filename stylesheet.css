@@ -59,7 +59,7 @@ iframe {
 #social-links {
 	width: 80%;
 	position: absolute;
-	bottom: 25px;
+	top: calc(100vh - 75px);
 	left: 10%;
 
 	display: flex;
@@ -68,7 +68,7 @@ iframe {
 
 #social-links-bar {
 	position: absolute;
-	bottom: 0;
+	top: calc(100vh - 100px);
 	left: 0;
 }
 
