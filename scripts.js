@@ -96,11 +96,3 @@ var page = new Vue({
     el: '#page',
     data: data,
 });
-
-
-var glide = new Glider(document.querySelector('#events'), {
-    slidesToShow: checkScreenWidth(),
-    scrollLock: true,
-    draggable: true,
-    dots: '#dots'
-});

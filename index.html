@@ -3,7 +3,7 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta http-equiv="refresh" content="3"> -->
     <link rel="stylesheet" href="stylesheet.css">
-    <link href="glider.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="shortcut icon" href="favicon.png">
     <title>Helen Kohler</title>
 </head>
@@ -35,18 +35,34 @@
 
     <span class="section" :style="footer">
 
-        <div id="events">
+        <div class="events">
             <event-card :count="2"></event-card>
             <event-card :count="1"></event-card>
             <event-card :count="0"></event-card>
         </div>
-        <div id="dots" class="glider-dots"></div>
     </span>
 </div>
 
-<script src="glider.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+</script><script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <script src="scripts.js"></script>
+
+<script>
+$(document).ready(()=>{
+    $('.events').slick({
+        variableWidth: true,
+        arrows: false,
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        speed: 800,
+        pauseOnHover: false,
+        infinite: true
+    })
+})
+</script>
 
 </body>
 </html>

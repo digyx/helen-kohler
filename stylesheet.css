@@ -1,7 +1,5 @@
-@import {
-	url("https://fonts.googleapis.com/css?family=Playfair+Display");
-	url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
-}
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import	url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
 
 body {
 	margin: 0;
@@ -30,6 +28,8 @@ iframe {
 	color: black;
 	text-align: center;
 
+	max-height: 650px;
+	max-width: 500px;
 	margin: 2em;
 	padding: 1em;
 	background: #ebebeb;
@@ -72,25 +72,10 @@ iframe {
 	left: 0;
 }
 
-#events {
+.events {
 	width: 90%;
 	overflow: hidden;
 }
-
-
-@media screen and (min-width: 1200px) {
-	#events {
-		width: 1200px;
-	}
-}
-
-
-@media screen and (min-width: 650px) and (max-width: 1199px) {
-	#events {
-		width: 500px;
-	}
-}
-
 
 @media screen and (min-width: 1700px) {
 	iframe {
